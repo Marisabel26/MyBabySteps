@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">MyBabySteps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btn_camRap">Foto rápida</string>
+    <string name="btn_crear">Crear</string>
+    <string name="btn_ver">Ver</string>
+    <string name="btn_datos">Datos</string>
+
+</resources>
