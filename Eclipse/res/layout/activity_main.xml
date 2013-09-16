@@ -1,8 +1,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+    
     <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="fill_parent"
@@ -18,22 +19,24 @@
             android:layout_height="fill_parent" 
             android:gravity="center">
 		    <Button
-		        android:id="@+id/button1"
+		        android:id="@+id/btnCamara"
 		        android:layout_width="fill_parent"
 		        android:layout_height="fill_parent"
-		        android:text="@string/btn_camRap" />
+		        android:text="@string/btn_camRap" 
+		        />
         </TableRow>
 
         <TableRow
-            android:id="@+id/tableRow2"
+            android:id="@+id/btnCrear"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" 
             android:gravity="center">
 		    <Button
-		        android:id="@+id/button2"
+		        android:id="@+id/btnVer"
         		android:layout_width="fill_parent"
         		android:layout_height="fill_parent"
-        		android:text="@string/btn_crear" />
+        		android:text="@string/btn_crear"
+        		android:onClick="irAcrear" />
         </TableRow>
 
         <TableRow
@@ -42,7 +45,7 @@
             android:layout_height="fill_parent" 
             android:gravity="center">
 		    <Button
-        		android:id="@+id/button3"
+        		android:id="@+id/btnDatos"
         		android:layout_width="fill_parent"
         		android:layout_height="fill_parent"
         		android:text="@string/btn_ver" />

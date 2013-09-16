@@ -16,8 +16,23 @@
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".FotoRapida"
+            android:label="@string/title_activity_foto_rapida" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mybabysteps.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Categorias"
+            android:label="@string/title_activity_categorias" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mybabysteps.MainActivity" />
         </activity>
     </application>
 
