@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo" >
+
+    <Button
+        android:id="@+id/btnCitas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp" 
+        android:text="@string/btn_citas" 
+        style="@style/style_btn_categ"
+        />
+
+    <Button
+        android:id="@+id/btnVacunas"
+        android:layout_width="120dp"
+        android:layout_height="120dp" 
+        android:layout_alignBaseline="@+id/btnCitas"
+        android:layout_alignBottom="@+id/btnCitas"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:text="@string/btn_vacunas" />
+
+    <Button
+        android:id="@+id/btnLogros"
+        android:layout_width="120dp"
+        android:layout_height="120dp" 
+        android:layout_alignLeft="@+id/btnCitas"
+        android:layout_below="@+id/btnCitas"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_logros" />
+
+    <Button
+        android:id="@+id/btnPaseos"
+        android:layout_width="120dp"
+        android:layout_height="120dp" 
+        android:layout_alignBaseline="@+id/btnLogros"
+        android:layout_alignBottom="@+id/btnLogros"
+        android:layout_alignLeft="@+id/btnVacunas"
+        android:text="@string/btn_paseos" />
+
+    <Button
+        android:id="@+id/btnOtros"
+        android:layout_width="120dp"
+        android:layout_height="120dp" 
+        android:layout_below="@+id/btnLogros"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_otros" />
+
+</RelativeLayout>
