@@ -38,4 +38,10 @@ public class MainActivity extends Activity {
 		startActivity(intento);
 		finish();
 	}
+	
+	public void irAcamara(View view) {
+		Intent intento = new Intent(this, FotoRapida.class);
+		startActivity(intento);
+		finish();
+	}
 }
