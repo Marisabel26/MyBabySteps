@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyBabySteps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btn_camRap">Cámara</string>
+    <string name="btn_crear">Crear</string>
+    <string name="btn_ver">Ver</string>
+    <string name="btn_datos">Datos</string>
+    <string name="btn_vacunas">Vacunas</string>
+    <string name="btn_logros">Logros</string>
+    <string name="btn_citas">Citas</string>
+    <string name="btn_paseos">Paseos</string>
+    <string name="btn_otros">Otros</string>
+    <string name="title_activity_foto_rapida">Cámara</string>
+    <string name="TomarFoto">Tomar Foto</string>
+    <string name="title_activity_categorias">Categorias</string>
+    <string name="title_activity_datos_bebe">Datos Bebe</string>
+    <string name="action_settings">Settings</string>
+    <string name="Nombre_Bebe">Nombre del Bebe</string>
+    <string name="Papa">Papá</string>
+    <string name="Nombre_Mama">Mamá</string>
+    <string name="Fecha_de_Nacimiento">Fecha de Nacimiento</string>
+    <string name="Peso">Peso</string>
+    <string name="Altura_Bebe">Altura</string>
+    <string name="TipoSangre_bebe">Tipo de Sangre</string>
+    <string name="Identificacion_Bebe">Identificacion</string>
+    <string name="Alergias_bebe">Alergias</string>
+    <string name="title_activity_editar_vacunas">Editar Vacunas</string>
+    <string name="Tipo_vacuna">Tipo de Vacuna</string>
+    <string name="Descripcion_cateogrias">Descripción</string>
+    <string name="Fecha_vacuna">Fecha de la vacuna</string>
+    <string name="Lugar_vacuna">Lugar donde se vacunó</string>
+    <string name="btn_Guardar">Guardar</string>
+    <string name="btn_Cancelar">Cancelar</string>
+    <string name="title_activity_editar_citas">Editar Citas</string>
+    <string name="Fecha_cita">Fecha de la cita</string>
+    <string name="Doctor_cita">Doctor</string>
+    <string name="Centro_Medico">Centro Medico</string>
+    <string name="title_activity_editar_logros">Editar Logros</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Lugar">Lugar</string>
+    <string name="title_activity_editar_paseos">Editar Paseos</string>
+    <string name="title_activity_editar_otros">Editar Otros</string>
+    <string name="Titulo">Título</string>
+    <string name="title_activity_citas">Citas</string>
+    <string name="btn_atras">Atrás</string>
+    <string name="btn_nuevo">Nuevo</string>
+    <string name="title_activity_logros">Logros</string>
+    <string name="title_activity_paseos">Paseos</string>
+    <string name="title_activity_vacunas">Vacunas</string>
+
+</resources>

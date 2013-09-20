@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/fondo" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnNuevo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/listView1"
+        android:layout_marginRight="42dp"
+        android:onClick="CrearNuevoItem"
+        android:text="@string/btn_nuevo" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView1"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/btnNuevo"
+        android:onClick="irAAtras"
+        android:text="@string/btn_atras" />
+
+</RelativeLayout>

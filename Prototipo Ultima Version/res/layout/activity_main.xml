@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+    
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="14dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:gravity="center">
+		    <Button
+		        android:id="@+id/btnCamara"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="@string/btn_camRap" 
+		        />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/btnCrear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:gravity="center">
+		    <Button
+		        android:id="@+id/btnVer"
+        		android:layout_width="fill_parent"
+        		android:layout_height="fill_parent"
+        		android:text="@string/btn_crear"
+        		android:onClick="irAcrear" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:gravity="center">
+		    <Button
+        		android:id="@+id/btnDatos"
+        		android:layout_width="fill_parent"
+        		android:layout_height="fill_parent"
+        		android:text="@string/btn_ver" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:gravity="center">
+		    <Button
+        		android:id="@+id/button4"
+        		android:layout_width="fill_parent"
+        		android:layout_height="fill_parent"
+        		android:text="@string/btn_datos" android:onClick="irDatosBebe"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
